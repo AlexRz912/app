@@ -4,7 +4,7 @@
 
 - I'm looking for feedback, if you wish to do a code review, be my guest, I need to learn on performance optimisation and clean architecture.
 
-- 07/06/2024 The version uploaded needs one slight fix as the first character is already on screen before the animation plays.
+
 
 ## Code kata Instruction
 

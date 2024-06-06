@@ -1,5 +1,5 @@
 import RandomChar from "../models/random_char_model.js"
-import DomElement from "../models/dom_element_model.js"
+
 
 class CharController {
   constructor(domElem) {
@@ -11,6 +11,7 @@ class CharController {
   }
 
   randomLetterLoop = async ({renderedText, nextLetter}) => { // recursion
+    console.log(renderedText);
     return new Promise(async (resolve) => {
 
       if (this.animationEnd) return resolve(true);

@@ -10,7 +10,7 @@ class DomElementModel {
   }
 
   insertCharToParagraph = ({renderedText = false, char}) => {
-    renderedText ? this.elementToInsertLetterIn.innerText = renderedText + char : char
+    renderedText ? this.elementToInsertLetterIn.innerText = renderedText + char : this.elementToInsertLetterIn.innerText = char
   }
 
   #insertToBody = () => {
